@@ -927,7 +927,6 @@ vendor/etc/vintf/manifest/hyper-default-sec.xml
 vendor/etc/vintf/manifest/lights-default-sec.xml
 vendor/etc/vintf/manifest/memtrack.xml
 vendor/etc/vintf/manifest/power-exynos.xml
-vendor/etc/vintf/manifest/power-samsung.xml
 vendor/etc/vintf/manifest/sec_c2_manifest_default0_1_0.xml
 vendor/etc/vintf/manifest/vaultkeeper_manifest.xml
 vendor/etc/vintf/manifest/vendor.samsung.hardware.authfw@1.0-manifest.xml

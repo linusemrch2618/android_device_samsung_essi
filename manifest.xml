@@ -9,10 +9,6 @@
         <transport>hwbinder</transport>
         <fqname>@6.0::IEffectsFactory/default</fqname>
     </hal>
-    <hal format="aidl">
-        <name>android.hardware.biometrics.face</name>
-        <fqname>IFace/default</fqname>
-    </hal>
     <hal format="hidl">
         <name>android.hardware.bluetooth</name>
         <transport>hwbinder</transport>
@@ -54,11 +50,6 @@
         <fqname>@4.0::IMapper/default</fqname>
     </hal>
     <hal format="hidl">
-        <name>android.hardware.health</name>
-        <transport>hwbinder</transport>
-        <fqname>@2.1::IHealth/default</fqname>
-    </hal>
-    <hal format="hidl">
         <name>android.hardware.media.c2</name>
         <transport>hwbinder</transport>
         <fqname>@1.0::IComponentStore/default</fqname>
@@ -83,14 +74,6 @@
         <name>android.hardware.secure_element</name>
         <transport>hwbinder</transport>
         <fqname>@1.2::ISecureElement/eSE1</fqname>
-    </hal>
-    <hal format="aidl">
-        <name>android.hardware.security.keymint</name>
-        <fqname>IKeyMintDevice/default</fqname>
-    </hal>
-    <hal format="aidl">
-        <name>android.hardware.security.secureclock</name>
-        <fqname>ISecureClock/default</fqname>
     </hal>
     <hal format="hidl">
         <name>android.hardware.soundtrigger</name>
@@ -122,11 +105,6 @@
         <name>vendor.samsung.hardware.bluetooth.audio</name>
         <transport>hwbinder</transport>
         <fqname>@2.1::ISehBluetoothAudioProvidersFactory/default</fqname>
-    </hal>
-    <hal format="hidl">
-        <name>vendor.samsung.hardware.camera.provider</name>
-        <transport>hwbinder</transport>
-        <fqname>@4.0::ISehCameraProvider/legacy/0</fqname>
     </hal>
     <hal format="hidl">
         <name>vendor.samsung.hardware.gnss</name>
